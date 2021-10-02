@@ -21,3 +21,20 @@
 >>> git rm --cached -r .
 .. remove all the files from staging area recursivly
 ----------------------------------
+.. commit can be explain as a safe point 
+>>> git commit -m "just a message"
+---------------------------------
+>>> git log
+.. see the changes [the commits]
+--------------------------------
+>>> git show 8d5626512eb92aba13aaf0733dda4c7bdd2d6632
+.. see the changes made by a commit [this long number is commit hash]
+-------------------------------
+>>> git diff 
+.. show the changes since last commit
+
+
+
+
+
+
