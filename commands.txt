@@ -1,0 +1,23 @@
+.. some basic config in git
+>>> git config  --global user.name Omid
+>>> git config  --global user.email omidmollaei2002@gmail.com
+>>> git config  --global color.ui auto
+-----------------------------------
+>>> git init .
+.. the current directory is now a repository.
+!-if we remove the created hidden directory (.git) then it would be no longer a repository
+-----------------------------------
+>>> git status
+.. display the stages of changes 
+-----------------------------------
+>>> git add index.html
+.. add edited/untracked file to staging area
+>>> git add .
+.. dot means all the file(s) from current directory downward(subdirectories)
+>>> git add -A
+.. add all files to staging area
+>>> git rm --cached index.html
+.. unstage a file 
+>>> git rm --cached -r .
+.. remove all the files from staging area recursivly
+----------------------------------
