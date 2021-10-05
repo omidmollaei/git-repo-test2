@@ -32,6 +32,20 @@
 -------------------------------
 >>> git diff 
 .. show the changes since last commit
+-------------------------------
+>>> git restore index.html
+.. restore index.html to last commit 
+-------------------------------
+>>> git commit --amend -m "New commit message"
+.. change the message of last commit
+------------------------------
+??? Git hub is a hosting platform for our project.
+this is where the world of open source live
+when you are creating a new git repository, you can set it as private 
+or public . if public , all people can see your repo. You should create an ssh key
+-----------------------------
+
+
 
 
 
