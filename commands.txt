@@ -44,6 +44,30 @@ this is where the world of open source live
 when you are creating a new git repository, you can set it as private 
 or public . if public , all people can see your repo. You should create an ssh key
 -----------------------------
+>>> git push -u origin main
+.. push the main branch to remote origin
+.. whenever there is change , just use 'git push', then everythinge will
+.. be up to data
+>>> git pull
+.. recive the new changes from origin
+----------------------------
+>>> git branch -a / -r
+..show the name of all branches. [-a means all breanches, -r means braches
+.. on remote ]
+-----------------------------
+>>> git branch newBranchName
+.. create a new branch
+>>> git checkout newBranchName
+.. switch the branch
+>>> git push -u origin newBranchName
+.. push the new branch to remote
+>>> git branch -D newBranchName
+.. delete a branch
+----------------------------
+>>> git merge newBrachName
+.. merge a branch to main branch [it is not recommended]
+---------------------------
+
 
 
 
